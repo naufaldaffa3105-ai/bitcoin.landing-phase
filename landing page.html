@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CryptoInsight - Ebook Crypto Pemula</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      font-family: 'Inter', sans-serif;
+      background: #050816;
+    }
+
+    .glow{
+      position:absolute;
+      width:400px;
+      height:400px;
+      border-radius:9999px;
+      filter: blur(120px);
+      z-index:0;
+    }
+
+    .glass{
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(12px);
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .gradient-text{
+      background: linear-gradient(to right,#FACC15,#FB7185);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .floating{
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float{
+      0%{
+        transform: translateY(0px) rotate(-6deg);
+      }
+      50%{
+        transform: translateY(-15px) rotate(-6deg);
+      }
+      100%{
+        transform: translateY(0px) rotate(-6deg);
+      }
+    }
+  </style>
+</head>
+
+<body class="text-white overflow-x-hidden">
+
+  <!-- GLOW -->
+  <div class="glow bg-purple-700/30 top-[-120px] left-[-120px]"></div>
+  <div class="glow bg-cyan-500/20 bottom-[-120px] right-[-120px]"></div>
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-[#050816]/70 backdrop-blur-xl border-b border-white/10">
+
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+      <div class="flex items-center gap-3">
+
+        <div class="w-12 h-12 rounded-2xl bg-yellow-400 flex items-center justify-center text-black font-black text-2xl">
+          ₿
+        </div>
+
+        <div>
+          <h1 class="font-black text-xl">CryptoInsight</h1>
+          <p class="text-gray-400 text-sm">Belajar Crypto Jadi Mudah</p>
+        </div>
+
+      </div>
+
+      <nav class="hidden md:flex items-center gap-10 text-gray-300">
+        <a href="#" class="hover:text-white transition">Benefit</a>
+        <a href="#" class="hover:text-white transition">Testimoni</a>
+        <a href="#" class="hover:text-white transition">FAQ</a>
+      </nav>
+
+      <button class="bg-yellow-400 hover:bg-yellow-300 transition text-black font-bold px-6 py-3 rounded-2xl shadow-xl shadow-yellow-500/20">
+        Download
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section class="relative min-h-screen flex items-center pt-32 px-6">
+
+    <div class="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-20 items-center relative z-10">
+
+      <!-- LEFT -->
+      <div>
+
+        <div class="inline-flex items-center gap-2 glass px-5 py-2 rounded-full text-sm text-yellow-300 mb-8">
+          🚀 Ebook Crypto Pemula 2026
+        </div>
+
+        <h1 class="text-6xl lg:text-7xl font-black leading-[1.05] mb-8">
+
+          Mulai Investasi
+          <span class="gradient-text">Crypto</span>
+          Tanpa Takut Rugi
+
+        </h1>
+
+        <p class="text-gray-300 text-xl leading-relaxed mb-10 max-w-2xl">
+
+          Pelajari Bitcoin, Blockchain, dan strategi investasi crypto untuk pemula dengan bahasa sederhana, modern, dan mudah dipahami.
+
+        </p>
+
+        <div class="flex flex-wrap gap-5 mb-10">
+
+          <button class="bg-yellow-400 hover:bg-yellow-300 transition text-black font-black px-10 py-5 rounded-2xl text-lg shadow-2xl shadow-yellow-500/20">
+            Download Sekarang
+          </button>
+
+          <button class="glass hover:bg-white/10 transition px-10 py-5 rounded-2xl text-lg">
+            Preview Ebook
+          </button>
+
+        </div>
+
+        <div class="flex flex-wrap gap-6 text-gray-400">
+
+          <div>✅ Cocok untuk Pemula</div>
+          <div>✅ Anti Scam Guide</div>
+          <div>✅ Step-by-Step</div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="flex justify-center relative">
+
+        <div class="absolute w-[400px] h-[400px] bg-purple-600/30 rounded-full blur-[120px]"></div>
+
+        <div class="floating relative bg-gradient-to-br from-purple-600 to-indigo-900 p-5 rounded-[40px] w-[340px] h-[500px] shadow-[0_30px_80px_rgba(0,0,0,0.5)]">
+
+          <div class="bg-[#0F172A] h-full rounded-[30px] p-8 border border-white/10 flex flex-col justify-between">
+
+            <div>
+
+              <div class="flex items-center justify-between mb-10">
+
+                <div class="text-yellow-400 uppercase tracking-[5px] text-sm">
+                  CryptoInsight
+                </div>
+
+                <div class="w-12 h-12 rounded-2xl bg-yellow-400 flex items-center justify-center text-black font-black text-2xl">
+                  ₿
+                </div>
+
+              </div>
+
+              <h2 class="text-5xl font-black leading-tight mb-8">
+
+                Crypto
+                <br>
+                Starter
+                <br>
+                Guide
+
+              </h2>
+
+              <p class="text-gray-400 leading-relaxed">
+
+                Panduan lengkap memahami Bitcoin dan investasi crypto untuk pemula.
+
+              </p>
+
+            </div>
+
+            <div class="glass rounded-3xl p-5">
+
+              <div class="text-gray-400 text-sm mb-2">
+                BONUS
+              </div>
+
+              <div class="font-bold text-lg">
+                Checklist Investor Pemula
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+  <section class="px-6 py-10">
+
+    <div class="max-w-7xl mx-auto glass rounded-[40px] p-10 grid md:grid-cols-3 gap-10 text-center">
+
+      <div>
+        <div class="text-5xl font-black text-yellow-400 mb-3">500+</div>
+        <div class="text-gray-400">Pembaca Pemula</div>
+      </div>
+
+      <div>
+        <div class="text-5xl font-black text-yellow-400 mb-3">50+</div>
+        <div class="text-gray-400">Halaman Practical</div>
+      </div>
+
+      <div>
+        <div class="text-5xl font-black text-yellow-400 mb-3">4.9★</div>
+        <div class="text-gray-400">Rating Kepuasan</div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- BENEFIT -->
+  <section class="py-28 px-6">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center max-w-3xl mx-auto mb-20">
+
+        <div class="text-yellow-400 font-semibold mb-5">
+          KENAPA HARUS EBOOK INI?
+        </div>
+
+        <h2 class="text-5xl font-black mb-6">
+
+          Belajar Crypto
+          <span class="gradient-text">Jadi Lebih Mudah</span>
+
+        </h2>
+
+        <p class="text-gray-400 text-lg leading-relaxed">
+
+          Semua materi dibuat khusus untuk pemula agar bisa memahami crypto tanpa harus membaca artikel rumit.
+
+        </p>
+
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-8">
+
+        <div class="glass rounded-[36px] p-10 hover:translate-y-[-8px] transition duration-300">
+
+          <div class="text-6xl mb-8">📘</div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Bahasa Mudah Dipahami
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed">
+            Semua materi dijelaskan dengan sederhana dan tidak membingungkan.
+          </p>
+
+        </div>
+
+        <div class="glass rounded-[36px] p-10 hover:translate-y-[-8px] transition duration-300">
+
+          <div class="text-6xl mb-8">💰</div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Belajar Investasi Aman
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed">
+            Pelajari strategi dasar investasi crypto tanpa ikut hype.
+          </p>
+
+        </div>
+
+        <div class="glass rounded-[36px] p-10 hover:translate-y-[-8px] transition duration-300">
+
+          <div class="text-6xl mb-8">🔒</div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Anti Scam Guide
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed">
+            Ketahui cara menghindari scam dan menjaga keamanan aset digital.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="px-6 pb-28">
+
+    <div class="max-w-6xl mx-auto bg-gradient-to-r from-purple-700 to-indigo-900 rounded-[50px] p-16 lg:p-24 text-center border border-white/10 relative overflow-hidden">
+
+      <div class="absolute top-[-100px] right-[-100px] w-[300px] h-[300px] bg-white/10 rounded-full blur-[100px]"></div>
+
+      <div class="relative z-10">
+
+        <div class="inline-flex bg-yellow-400 text-black px-5 py-2 rounded-full font-bold mb-8">
+          🔥 Promo Diskon 50%
+        </div>
+
+        <h2 class="text-6xl font-black leading-tight mb-8">
+
+          Siap Memulai
+          <span class="text-yellow-300">Perjalanan Crypto?</span>
+
+        </h2>
+
+        <p class="text-xl text-gray-200 leading-relaxed max-w-3xl mx-auto mb-12">
+
+          Dapatkan ebook lengkap + bonus checklist investasi crypto untuk membantu kamu memulai dengan lebih aman.
+
+        </p>
+
+        <button class="bg-yellow-400 hover:bg-yellow-300 transition text-black font-black px-12 py-5 rounded-2xl text-xl shadow-2xl shadow-yellow-500/20">
+          Download Sekarang
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
